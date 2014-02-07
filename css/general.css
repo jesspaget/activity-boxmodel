@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-family:Futura, Helvetica, sans-serif;
+    border-top: 5px solid #FF0;
+    border-bottom: 5px solid #FF0;
+    border-right: 5px solid #FF0;
+    border-left: 5px solid #FF0;
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.masthead {
+    background-color: #C00;
+    overflow: hidden;
+}
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+} 
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden; 
+}
+
+body {
+    background-color: #FFC;
+}
+
+h1 {
+    font-family: Cooper Black, "Cooper Black", sans serif; 
+    font-weight: normal; 
+    font-size: 3rem; 
+    text-shadow: #999 2px 2px;
+}
+
+h2 {
+    font-family: Cooper Black, "Cooper Black", sans serif; 
+    font-weight: normal; 
+    font-size: 2rem; 
+}
+    
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+    
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
+
+figcaption {
+    font-size: .70 rem;
+    margin: .4rem 0; 
+}
+    
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+    
+hr {
+    border: solid 2px #F3O;
+}
+
+ul,
+ol {
+    background-color: #6CF;
+    border-top: 2px dotted #3C6; 
+    border-bottom: 2px dotted #3C6;
+    border-right: 2px dotted #3C6;
+    border-left: 2px dotted #3C6;
+}
+
+footer {
+    background-color: red;
+    overflow: hidden;
+}
+    
+footer p {
+    color: #6CF;
+    margin: .5rem 5% 4rem;
+    font-size: .75rem;
+}
+
+footer a {
+    color: #6CF;
+}
