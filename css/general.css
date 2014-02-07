@@ -95,16 +95,16 @@ em {
 }
     
 hr {
-    border: solid 2px #F3O;
+    border: solid 2px #C00;
 }
 
 ul,
 ol {
     background-color: #6CF;
-    border-top: 2px dotted #3C6; 
-    border-bottom: 2px dotted #3C6;
-    border-right: 2px dotted #3C6;
-    border-left: 2px dotted #3C6;
+    border-top: 2px dotted #060; 
+    border-bottom: 2px dotted #060;
+    border-right: 2px dotted #060;
+    border-left: 2px dotted #060;
 }
 
 footer {
